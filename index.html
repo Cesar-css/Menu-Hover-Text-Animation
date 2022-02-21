@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Hover Bar</title>
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <ul>
-        <li style="--clr:#00ade1">
+        <li data-aos="fade-left" data-aos-delay="1000" style="--clr:#00ade1">
             <a href="" data-text="&nbsp;INÍCIO">&nbsp;INÍCIO&nbsp;</a>
         </li>
-        <li style="--clr:#ff6493">
+        <li data-aos="fade-right" data-aos-delay="1100" style="--clr:#ff6493">
             <a href="" data-text="&nbsp;SOBRE&nbsp;NÓS">&nbsp;SOBRE&nbsp;NÓS&nbsp;</a>
         </li>
-        <li style="--clr:#ffdd1c">
+        <li data-aos="fade-left" data-aos-delay="1200" style="--clr:#ffdd1c">
             <a href="" data-text="&nbsp;SERVIÇOS">&nbsp;SERVIÇOS&nbsp;</a>
         </li>
-        <li style="--clr:#00dc82">
+        <li data-aos="fade-right" data-aos-delay="1300" style="--clr:#00dc82">
             <a href="" data-text="&nbsp;EQUIPE">&nbsp;EQUIPE&nbsp;</a>
         </li>
-        <li style="--clr:#dc00d4">
+        <li data-aos="fade-left" data-aos-delay="1300" style="--clr:#dc00d4">
             <a href="https://cesar-a-jr.github.io/social_tree/" data-text="&nbsp;CONTATO">&nbsp;CONTATO&nbsp;</a>
         </li>
     </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
